@@ -1,4 +1,7 @@
 **数据库要点**
+
+
+
 # 第一章
 
 ·数据：描述事务的符号记录、数据库中存储的基本对象
@@ -13,15 +16,15 @@
 
 ·数据库系统（DBS）：由数据库、数据库管理系统、应用程序、数据库管理员组成的存储、管理、处理和维护数据的系统（即采用数据库技术的计算机系统）
 
-![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175443.gif)
+![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703180112.gif)
 
 ​                 填空题                
 
-![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175444.jpg)
+![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703180113.jpg)
 
 
 
-![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175445.gif)
+![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703180114.gif)
 
 ·数据库管理的三个阶段
 
@@ -173,7 +176,7 @@
 
 ​      （一个数据库只有一个内模式）
 
-![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175446.gif)
+![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703180115.gif)
 
  
 
@@ -239,7 +242,7 @@
 
 ·**关系代数（例题P56）必考**
 
-![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175447.jpg)
+![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703180116.jpg)
 
 ·悬浮元组：在表与表进行连接的时候，被舍弃的元组
 
@@ -272,9 +275,9 @@
 | 数据操纵        | insert、update、delete |
 | 数据控制        | grant、revoke          |
 
-![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175448.jpg)
+![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703180117.jpg)
 
-![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175449.jpg)
+![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703180118.jpg)
 
   \* 定义模式 create schema <模式名> authorization <用户名>;
 
@@ -320,7 +323,7 @@
 
   \* 删除基本表drop table<表名>[cascade|restrict];(默认restrict)
 
-**![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175450.jpg)**
+**![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703180119.jpg)**
 
   模式与表
 
@@ -344,7 +347,7 @@
 
 ·数据查询
 
-![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175451.gif)![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175452.gif)![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175453.gif)![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175454.jpg)
+![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703180120.gif)![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703180121.gif)![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703180122.gif)![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703180123.jpg)
 
   \- distinct (去重复)
 
@@ -352,7 +355,7 @@
 
   \- order by xxx asc|desc (排序|asc默认升序)
 
-![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175455.gif)
+![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703180124.gif)
 
 PS:空值一定要用is null 或者is not null判断
 
@@ -422,7 +425,7 @@ PS:
 
   \* !=(或<>)ALL   不等于子查询结果中的任何一个值
 
-![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175456.jpg)
+![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703180125.jpg)
 
 ·exists（只产生逻辑值，不返回任何数据）
 
@@ -480,7 +483,7 @@ PS：书P111例[3.63]
 
   \* 空值与另一个值（包括一个空值）的比较运算结果为**UNKNOWN**
 
-**![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175457.jpg)**
+**![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703180126.jpg)**
 
 **·P115 ！**
 
@@ -498,7 +501,7 @@ PS：书P111例[3.63]
 
 ·数据库管理系统安全性控制模型
 
-![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175458.jpg)
+![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703180127.jpg)
 
 ·用户权限由两个要素组成：数据库对象和操作类型
 
@@ -512,7 +515,7 @@ PS：书P111例[3.63]
 
   \* 存取控制的对象不仅有数据本身（数据、属性列上的数据），还有数据库模式 （包括数据库、基本表、视图、索引）
 
-![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175459.jpg)
+![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703180128.jpg)
 
 ·授权与收回
 
@@ -618,7 +621,7 @@ PS：书P111例[3.63]
 
 ·数据库设计的基本步骤：
 
- ![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175500.jpg)
+ ![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703180129.jpg)
 
   \* 需求分析阶段
 
@@ -764,7 +767,7 @@ PS：书P111例[3.63]
 
 ​       （事务T1修改某一数据并写入磁盘，事务T2读取同一数据后，T1       由于某种原因被撤销，这时T1修改过的数据恢复原值，T2读到的        数据就与数据库中的数据不一致，即为读到“脏”数据）
 
-**![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175501.jpg)**
+**![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703180130.jpg)**
 
 ·并发控制的主要技术有封锁、时间戳、乐观控制法、多版本并发控制等
 
@@ -790,7 +793,7 @@ PS：书P111例[3.63]
 
 ​    \- 指在一级封锁协议的基础上增加事务T在读取数据R之前必须先对其加S   锁，直到事务结束才释放
 
-![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175502.jpg)
+![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703180107.jpg)
 
 ·活锁和死锁（**什么情况、如何解决**）
 
