@@ -1,31 +1,4 @@
-# Database_system
-
 **数据库要点**
-
-[**第一章****........................................................................................** **1**](#_Toc518041621)
-
-[**第二章****........................................................................................** **5**](#_Toc518041622)
-
-[**第三章****........................................................................................** **6**](#_Toc518041623)
-
-[**第四章****......................................................................................** **14**](#_Toc518041624)
-
-[**第五章****......................................................................................** **16**](#_Toc518041625)
-
-[**第六章****......................................................................................** **16**](#_Toc518041626)
-
-[**第七章****......................................................................................** **17**](#_Toc518041627)
-
-[**第八章****......................................................................................** **19**](#_Toc518041628)
-
-[**第九章****......................................................................................** **19**](#_Toc518041629)
-
-[**第十章****......................................................................................** **20**](#_Toc518041630)
-
-[**第十一章****..................................................................................** **20**](#_Toc518041631)
-
- 
-
 # 第一章
 
 ·数据：描述事务的符号记录、数据库中存储的基本对象
@@ -40,15 +13,15 @@
 
 ·数据库系统（DBS）：由数据库、数据库管理系统、应用程序、数据库管理员组成的存储、管理、处理和维护数据的系统（即采用数据库技术的计算机系统）
 
-![img](https://raw.githubusercontent.com/lhl1/PicGo/master/20210703173557.gif?token=ANNFVK2SAOSCYXVKN6HKXC3A4AX3U)
+![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175443.gif)
 
 ​                 填空题                
 
-![img](https://raw.githubusercontent.com/lhl1/PicGo/master/20210703173558.jpg?token=ANNFVK2GT53L26TWPATX2XTA4AX3W)
+![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175444.jpg)
 
 
 
-![img](https://raw.githubusercontent.com/lhl1/PicGo/master/20210703173559.gif?token=ANNFVK4QGR2TDSRWL43YO2LA4AX34)
+![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175445.gif)
 
 ·数据库管理的三个阶段
 
@@ -200,7 +173,7 @@
 
 ​      （一个数据库只有一个内模式）
 
-![img](https://raw.githubusercontent.com/lhl1/PicGo/master/20210703173600.gif?token=ANNFVK3G53KFD6DROE5PD33A4AX4A)
+![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175446.gif)
 
  
 
@@ -266,7 +239,7 @@
 
 ·**关系代数（例题P56）必考**
 
-![img](https://raw.githubusercontent.com/lhl1/PicGo/master/20210703173601.jpg?token=ANNFVKZRSXAPEKVYX7I6DN3A4AX4G)
+![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175447.jpg)
 
 ·悬浮元组：在表与表进行连接的时候，被舍弃的元组
 
@@ -299,9 +272,9 @@
 | 数据操纵        | insert、update、delete |
 | 数据控制        | grant、revoke          |
 
-![img](https://raw.githubusercontent.com/lhl1/PicGo/master/20210703173602.jpg?token=ANNFVK4W4747FMYFAXR2OQTA4AX4I)
+![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175448.jpg)
 
-![img](https://raw.githubusercontent.com/lhl1/PicGo/master/20210703173603.jpg?token=ANNFVK5QDWEY3UA2MB3ZMV3A4AX4K)
+![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175449.jpg)
 
   \* 定义模式 create schema <模式名> authorization <用户名>;
 
@@ -347,7 +320,7 @@
 
   \* 删除基本表drop table<表名>[cascade|restrict];(默认restrict)
 
-**![img](https://raw.githubusercontent.com/lhl1/PicGo/master/20210703173604.jpg?token=ANNFVK5RPXWC5KRJOAOOCZLA4AX4O)**
+**![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175450.jpg)**
 
   模式与表
 
@@ -371,7 +344,7 @@
 
 ·数据查询
 
-![img](https://raw.githubusercontent.com/lhl1/PicGo/master/20210703173605.gif?token=ANNFVK5FD4RLM3LSBWBAL4TA4AX4Q)![img](https://raw.githubusercontent.com/lhl1/PicGo/master/20210703173606.gif?token=ANNFVK5DD7AM7MJEY5C5PNLA4AX4Q)![img](https://raw.githubusercontent.com/lhl1/PicGo/master/20210703173607.gif?token=ANNFVK2IR5DUAON7EVT6NBDA4AX4S)![img](https://raw.githubusercontent.com/lhl1/PicGo/master/20210703173608.jpg?token=ANNFVK4UC4JBCOLKIXO3W7DA4AX4U)
+![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175451.gif)![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175452.gif)![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175453.gif)![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175454.jpg)
 
   \- distinct (去重复)
 
@@ -379,7 +352,7 @@
 
   \- order by xxx asc|desc (排序|asc默认升序)
 
-![img](https://raw.githubusercontent.com/lhl1/PicGo/master/20210703173609.gif?token=ANNFVK2ETTOAGWF3WFKP67LA4AX4Y)
+![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175455.gif)
 
 PS:空值一定要用is null 或者is not null判断
 
@@ -449,7 +422,7 @@ PS:
 
   \* !=(或<>)ALL   不等于子查询结果中的任何一个值
 
-![img](https://raw.githubusercontent.com/lhl1/PicGo/master/20210703173610.jpg?token=ANNFVKYVGG3IJRO4W7BPMGDA4AX42)
+![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175456.jpg)
 
 ·exists（只产生逻辑值，不返回任何数据）
 
@@ -507,7 +480,7 @@ PS：书P111例[3.63]
 
   \* 空值与另一个值（包括一个空值）的比较运算结果为**UNKNOWN**
 
-**![img](https://raw.githubusercontent.com/lhl1/PicGo/master/20210703173611.jpg?token=ANNFVK72SJ23XLVIEVE3RBLA4AX44)**
+**![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175457.jpg)**
 
 **·P115 ！**
 
@@ -525,7 +498,7 @@ PS：书P111例[3.63]
 
 ·数据库管理系统安全性控制模型
 
-![img](https://raw.githubusercontent.com/lhl1/PicGo/master/20210703173612.jpg?token=ANNFVK5KAFIP7ECD3DKEBUTA4AX5C)
+![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175458.jpg)
 
 ·用户权限由两个要素组成：数据库对象和操作类型
 
@@ -539,7 +512,7 @@ PS：书P111例[3.63]
 
   \* 存取控制的对象不仅有数据本身（数据、属性列上的数据），还有数据库模式 （包括数据库、基本表、视图、索引）
 
-![img](https://raw.githubusercontent.com/lhl1/PicGo/master/20210703173613.jpg?token=ANNFVK6K6CH4ZKUMPM3NFU3A4AX5G)
+![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175459.jpg)
 
 ·授权与收回
 
@@ -645,7 +618,7 @@ PS：书P111例[3.63]
 
 ·数据库设计的基本步骤：
 
- ![img](https://raw.githubusercontent.com/lhl1/PicGo/master/20210703173614.jpg?token=ANNFVK4QAFNJ5LHF3WRE5TDA4AX5K)
+ ![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175500.jpg)
 
   \* 需求分析阶段
 
@@ -791,7 +764,7 @@ PS：书P111例[3.63]
 
 ​       （事务T1修改某一数据并写入磁盘，事务T2读取同一数据后，T1       由于某种原因被撤销，这时T1修改过的数据恢复原值，T2读到的        数据就与数据库中的数据不一致，即为读到“脏”数据）
 
-**![img](https://raw.githubusercontent.com/lhl1/PicGo/master/20210703173615.jpg?token=ANNFVK2BMGVU5S2OBDIBAZLA4AX5O)**
+**![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175501.jpg)**
 
 ·并发控制的主要技术有封锁、时间戳、乐观控制法、多版本并发控制等
 
@@ -817,7 +790,7 @@ PS：书P111例[3.63]
 
 ​    \- 指在一级封锁协议的基础上增加事务T在读取数据R之前必须先对其加S   锁，直到事务结束才释放
 
-![img](https://raw.githubusercontent.com/lhl1/PicGo/master/clip_image036.jpg?token=ANNFVK2URLJLTOIFXMK6UKLA4AXPS)
+![img](https://gitee.com/LHLpicbed/picbad/raw/master/20210703175502.jpg)
 
 ·活锁和死锁（**什么情况、如何解决**）
 
